@@ -1,0 +1,370 @@
+
+/*** Navbar */
+#rub{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+#rub :hover{
+    color: #007bff;
+}
+
+.listcolor li a:hover{
+    background-color: #007bff;
+}
+
+.main-nav{
+    margin-left: 125px;
+}
+
+.form-nav{
+    margin-left: 125px;
+}
+
+.form-button-nav{
+    margin-right: 7.5px;
+}
+
+
+/*** section1  */
+
+.sec1{
+    min-height: 600px;
+    background-image: url(/img/rub7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #212121;
+    background-blend-mode: multiply;
+    
+}
+
+.sec1-margin{
+    margin-top: 250px;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter1{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .newsletter2{
+    display: flex !important;
+    flex-direction: row;
+    margin: 20px;
+} */
+
+/**  Login page */
+.login{
+    margin: auto;
+    margin-top: 75px;
+    max-width: 100%;
+    width: 400px;   
+}
+
+/** Sign-Up */
+
+
+/** Sign-Up */
+.create-acc{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 100%;
+    width: 400px; 
+}
+
+.forgot-pass, .sign-up{
+    color: white;
+}
+
+.forgot-pass:hover{
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.sign-up:hover{
+    text-decoration: none;
+    color: #17a2b8;
+}
+
+/** DISUCSSIONS PAGE */
+
+/* Side bar section */
+.wrap{
+    display: flex;
+    flex-direction: column;
+    position: fixed !important;
+    
+}
+
+.pic-marg{
+    width: 90px;
+    height: 90px;
+    margin: 30% ;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.menu-butt{
+    margin-top: 70%;
+}
+
+/* CHAT PAGE FOR DISCUSS */
+
+/* Top chat section */
+.wrapper{
+    margin-left: auto;
+}
+
+.top-color{
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 1rem; */
+}
+
+.pic-marg2{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.active-ppl{
+    flex: 1;
+    margin-left: 10px;
+    color: white;
+}
+
+.active-ppl h6{
+    line-height: 2px;
+    font-size: 15px;
+}
+
+.head-icons{
+    margin-right: 15px; 
+    color: white;
+}
+
+.head-fonts {
+    margin: 7px;
+    font-size: 20px;
+}
+
+.form-border{
+    border: 1px solid white !important;
+    border-radius: 20px !important;
+}
+
+/* Main chat section */
+
+.sent{
+    display: flex;
+}
+.messages{
+    /* padding: 1.5rem 2rem; */
+}
+.chats{
+    display: flex;
+    margin-bottom: 1.8rem;
+    width: 100%;
+}
+.outgoing{
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+.incoming{
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+.chat-img{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin-top: 1rem;
+    border: 1px solid black;
+}
+
+.received-msg{
+    width: 45%;
+    margin-left: 5px;
+}
+
+.outgoing-msg{
+    width: 45%;
+    margin-right: 5px;
+}
+
+.received-msg p{
+    width: 100%;
+    background: rgb(151, 150, 150) ;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px 5px 12px;
+}
+
+.outgoing-msg p{
+    width: 100%;
+    background: rgb(209, 208, 208) ;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px 5px 12px;
+}
+
+.received-msg span{
+    font-size: 12.5px;
+}
+.content{
+    position: absolute;
+    left: 20%;
+    right: 0%;
+}
+.sidebar{
+    width: 20%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.msg-bottom{
+    position: fixed;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: .5rem 3%;
+    background-color: #353535;
+    bottom: 0;
+    right: 0;
+    left: 20%;
+}
+
+.bottom-icons{
+    width: 15%;
+    color: white;
+    text-align: right;
+}
+
+.send_btn{
+    box-shadow: none;
+    color: #fff;
+    padding: 0 .8rem;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #eae7e71f;
+    cursor: pointer;
+    position: relative;
+    background: #353535;
+}
+
+.send_btn:focus, .send_btn:active{
+    outline: none;
+    outline-width: 0;
+    
+}
+
+.bottom-form{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.submit_group{
+    display: flex;
+    width: 85%;
+}
+
+.input-group-text{
+    border: none !important;
+    color: black !important;
+}
+
+.toggleview{
+    transform: translateX(0) !important;
+    /* The translateX set to 0(zero) here is meant to 
+    return the sidebar to it's original positon */
+}
+
+.toggle-out{
+    margin-left: 90%;
+}
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 1024px){
+    .bottom-icons{
+        width: 25%;
+    }
+    .submit_group{
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .sidebar{
+        /* animation-iteration-count: 1; */
+        /* animation-fill-mode: backwards; */
+        transition: transform .5s ease-in-out;
+        /* position: fixed; */
+        width: 70%;
+        /* top: 0; */
+        z-index: 99999;
+        /* bottom: 0;
+        left: 0; */
+        transform: translateX(-150%);
+        /* The translateX set to -150 is make the sidebar 
+        disappear when the widht reaches 768px then the
+        zero above is used to return the sidebar to its 
+        original position */
+    }
+    .content{
+        position: absolute;
+        left: 0;
+    }
+    .msg-bottom{
+        position: fixed;
+        left: 0;
+    }
+}
+
+@media (max-width: 599px){
+    .remove{
+        display: none;
+    }
+
+    .bottom-icons{
+        width: 10%;
+    }
+
+    .submit_group{
+        width: 90%;
+    }
+
+    #top-form{
+        display: none;
+    }
+
+    .head-fonts{
+        display: none;
+    }
+
+}
+
+/* @media (max-width: 768px){
+    .outgoing-msg, .received-msg{
+        width: 60%;
+    }
+} */

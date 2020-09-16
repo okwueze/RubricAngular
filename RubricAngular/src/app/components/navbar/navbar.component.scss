@@ -1,0 +1,92 @@
+// @import '../../../assets/css/student.css';
+@import '../../../assets/css/bootstrap-darkly-4.2.1.min.css';
+// @import '../../../assets/css/bootnavbar.css';
+// @import '../../../assets/css/animate-3.7.0.min.css';
+
+.logo{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo a:hover{
+    color: rgba(42, 28, 238, 0.842) !important;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: .5rem;
+    padding: .5rem;
+    transition: background-color .22s ease, color .22s ease;
+}
+
+.menu a:hover{
+    color: rgba(42, 28, 238, 0.842);
+}
+
+.toggleview{
+    transform: translateY(0) !important; // This line of code will make the navbar diappear so if you us
+} // X translate then it will not disappear and we want it to disappear so that the user will have to click
+    // the three icon bars for the navbar to appear
+
+@media(max-width: 768px){
+
+    .icon-bars{
+        font-size: x-large;
+    }
+
+    nav li{
+        padding-top: 2rem;
+    }
+
+    nav li a{
+        margin-bottom: 2rem;
+    }
+
+    #navbar-ul{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 15rem;
+        padding-top: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+        transition: .5s ease-in-out;
+        z-index: 99999;
+        background: #212121;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(-200%); // As you can see down here we translated with X this is to make the 
+    } // navbar appear from the side ie from left to right but if we use Y it will apppear from top to bottom
+}
+
+@media (min-width: 768px){
+    .icon-bars{
+        display: none !important;
+    }   
+}
+
+

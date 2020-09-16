@@ -1,0 +1,33 @@
+@import '../../../assets/css/student.css';
+@import '../../../assets/css/bootstrap-darkly-4.2.1.min.css';
+@import '../../../assets/css/bootnavbar.css';
+@import '../../../assets/css/animate-3.7.0.min.css';
+
+.container-fluid-color{
+    background-color:  #212121;
+    // margin: 0 0 0 0 !important;
+    // padding: 0 0 0 0 !important;
+}
+
+.container-fluid-color, .container-fluid-color1, footer{
+    overflow: hidden;
+}
+
+footer{
+    background-color: #212121;
+}
+
+@media (max-width: 1024px){
+    // .container-fluid-color, .container-fluid-color1, footer{
+    //     margin-left: -10rem;
+    // }
+}
+
+@media (max-width: 768px){
+    
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

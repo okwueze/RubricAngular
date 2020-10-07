@@ -277,14 +277,14 @@
     .sidebar{
         /* animation-iteration-count: 1; */
         /* animation-fill-mode: backwards; */
-        transition: transform .5s ease-in-out;
+        /* transition: transform .5s ease-in-out; */
         /* position: fixed; */
-        width: 70%;
+        /* width: 70%; */
         /* top: 0; */
-        z-index: 99999;
+        /* z-index: 99999; */
         /* bottom: 0;
         left: 0; */
-        transform: translateX(-150%);
+        /* transform: translateX(-150%); */
         /* The translateX set to -150 is make the sidebar 
         disappear when the widht reaches 768px then the
         zero above is used to return the sidebar to its 

@@ -12,4 +12,9 @@ export class DiscussionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleSidebar(){
+    this.mobileMenu = !this.mobileMenu // The exclamation make the function do the opposite of what it is
+  }// meaning that as mobileMenu is set to false it will make it true and vice versa which will make the
+  // the navbar slide in and out
+
 }

@@ -1,13 +1,11 @@
 <div>
-    <div class="sidebar bg-light p-0" id="sidebar">
-        <i class="fas fa-bars toggle-out d-sm-block d-md-none text-white"
-        onclick="toggleSidebar()"></i>
+    <div class="sidebar bg-light p-0" id="navbar-ul" [ngClass]="{'toggleview': mobileMenu == true}">
         <img src="../../../assets/img/back.jpeg" class="rounded-circle pic-marg">
         <div class="text-center font-weight-bold mt-1 text-white">
             <P class="mb-1">Ikenna Okwueze</P>
             <P class="text-muted">Okwueze1@gmail.com</P>
         </div>
-        <div class="text-center font-weight-bold bg-secondary text-white">
+        <div class="text-center font-weight-bold bg-secondary text-white" id="side-channels">
             <p class="pt-3">Channels</p>
             <hr class="bg-white">
             <p class="pb-3">Users</p>
@@ -16,8 +14,6 @@
     </div>
     <div class="content bg-white text-light p-0">
         <div class="sticky-top top-color bg-light">
-            <i class="fas fa-bars ml-3 d-sm-block d-md-none text-white"
-            onclick="toggleSidebar()" id="toggle"></i>
             <img src="../../../assets/img/back.jpeg" class="rounded-circle pic-marg2">
             <div class="active-ppl">
                 <h4>Ikenna Okwueze</h4>
@@ -31,6 +27,8 @@
                     <button class="btn btn-light form-border"><i class="fa fa-search"></i></button>
                 </form>
             </div>
+            <i class="fas fa-bars mr-4 d-sm-block d-md-none text-white"
+            (click)="toggleSidebar()" id="toggle"></i>
         </div>
 
         <div class="p-2"></div>

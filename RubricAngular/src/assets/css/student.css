@@ -1,7 +1,7 @@
  
 
 .sec1{
-    min-height: 600px;
+    min-height: 600px; /* if you don't specify min or max height the image won't show; */
     background-image: url(../img/rub7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
